@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Built-By: shurenkeji
+Build-Jdk: 1.8.0_131
+Build-Id: 
+Build-Number: 
+Build-Tag: 
+Created-By: Maven Integration for Eclipse
+Specification-Title: cas
+Specification-Vendor: SRY
+Specification-Version: 1.6.0-SNAPSHOT
+Svn-Revision: 
+

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background:url(../images/login.png) center top no-repeat;
+    margin:0;
+    padding:0;
+}
+.loginCentent{
+    background:url(../images/login2.png) center top no-repeat;
+    width:875px;
+    height:724px;
+    margin:0 auto;
+    position:relative;
+    *left: 272px;
+    top: 0px;
+    text-align: center;
+}
+.ds{
+	width:600px;
+	height:270px;
+	
+	font-weight:bold;
+	margin:360px auto 0px 20px;
+	text-align:center;
+}
+
+.newLogin:link, .newLogin:visited{
+	width:140px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:opx ;
+	background:url(../images/chongxin.gif) no-repeat;
+}
+.newLogin:hover{
+	background:url(../images/chongxin.gif) no-repeat;
+}
+.close:link, .close:visited{
+	width:140px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:0px ;
+	background:url(../images/close.gif) no-repeat;
+}
+.close:hover{
+	background:url(../images/close.gif) no-repeat;
+}
+.errorInfoLogout{
+	
+	color:#FF3300;
+	font-weight:bold;
+	font-size:26px;
+	margin-top: 30px;
+	margin-left: 20px;
+	height: 30px
+
+    }
+#showText {
+	font-size:36px;
+	margin-left: 20px;
+}

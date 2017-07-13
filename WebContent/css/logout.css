@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background:#097C24;
+	text-align: center;
+}
+input{
+	width:373px;
+	height:40px;
+	line-height:40px;
+	font-size:32px;
+	border:1px solid #389848;
+	background:#fff;
+	margin:0 0 0px 8px;
+	font-size:20px;
+}
+.title1{
+	width:90%;
+	height:15px;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	color:#1A4407;
+	text-align:center;
+	padding:50px 0 0 0;
+	_padding:35px 0 0 0;
+}
+.title2{
+	width:80%;
+	height:53px;
+	line-height:53px;
+	margin:0px 0 0 45px;
+	font-size:36px;
+	font-weight:bold;
+	color:#1A4407;
+	text-align:left;
+	padding-left:115px;
+	background:url(../images/logout/logo.gif) no-repeat;
+}
+/*刷卡登录*/
+.loginKa{
+	width:1004px;
+	height:768px;
+	margin:0 auto;
+	position:relative;
+	background:url(../images/logout/login-ka.png) no-repeat;
+}
+.qhKa:link, .qhKa:visited{
+	width:207px;
+	height:51px;
+	position:absolute;
+	top:480px;
+	left:400px;
+	background:url(../../images/logout/qh.png) no-repeat;
+}
+.qhKa:hover{
+	width:207px;
+	height:51px;
+	position:absolute;
+	top:480px;
+	left:400px;
+	background:url(../../images/logout/qh-hover.png) no-repeat;
+}
+/*用户名登录*/
+.login{
+	width:1004px;
+	height:750px;
+	margin:0 auto;
+	position:relative;
+	background:url(../images/logout/login.png) no-repeat;
+}
+.tab{
+	width:550px;
+	margin:100px auto 0 auto;	
+}
+.tab td{
+	height:50px;
+	*height:70px;
+	_height:70px;
+}
+.tab strong{
+	height:40px;
+	display:block;
+	margin-left:10px;
+	font-size:22px;
+}
+.tab p{
+	color:#fff;
+	font-size:24px;
+	font-weight:bold;
+	height:40px;
+	line-height:40px;
+}
+.qh:link, .qh:visited{
+	width:207px;
+	height:51px;
+	display:block;
+	float:left;
+	margin:0 8px 0 0 ;
+	background:url(../images/logout/qh.gif) no-repeat;
+}
+.qh:hover{
+	background:url(../images/logout/qh-hover.gif) no-repeat;
+}
+.go:link, .go:visited{
+	width:151px;
+	height:51px;
+	display:block;
+	float:left;
+	margin:0 8px 0 0 ;
+	background:url(../images/logout/go.gif) no-repeat;
+}
+.go:hover{
+	background:url(../images/logout/go-hover.gif) no-repeat;
+}
+.log:link, .log:visited{
+	width:151px;
+	height:51px;
+	display:block;
+	float:left;
+	margin:0 8px 0 0 ;
+	background:url(../images/logout/log.gif) no-repeat;
+}
+.log:hover{
+	background:url(../images/logout/log-hover.gif) no-repeat;
+}
+.cancel:link, .cancel:visited{
+	width:151px;
+	height:51px;
+	display:block;
+	float:left;
+	margin:0 8px 0 0 ;
+	background:url(../images/logout/cancel.gif) no-repeat;
+}
+.cancel:hover{
+	background:url(../images/logout/cancel-hover.gif) no-repeat;
+}
+/*退出登录*/
+.ds{
+	width:600px;
+	height:270px;
+	color:#F00;
+	font-size:54px;
+	font-weight:bold;
+	margin:90px auto 0 auto;
+	text-align:center;
+}
+.ds p{
+	height:60px;
+	*height:90px;
+	_height:90px;
+}
+.newLogin:link, .newLogin:visited{
+	width:174px;
+	height:50px;
+	display:block;
+	float:left;
+	margin:0 15px 0 0 ;
+	background:url(../images/logout/newLogin.gif) no-repeat;
+}
+.newLogin:hover{
+	background:url(../images/logout/newLogin-hover.gif) no-repeat;
+}
+.close:link, .close:visited{
+	width:174px;
+	height:50px;
+	display:block;
+	float:left;
+	margin:0 8px 0 0 ;
+	background:url(../images/logout/close.gif) no-repeat;
+}
+.close:hover{
+	background:url(../images/logout/close-hover.gif) no-repeat;
+}
+.CopyrightKa{
+	width:600px;
+	margin:480px auto 0 auto;
+	text-align:center;
+	color:#D9FF9A;
+}
+.Copyright{
+	width:600px;
+	margin:120px auto 0 auto;
+	_margin:80px auto 0 auto;
+	text-align:center;
+	color:#D9FF9A;
+}
+.errorInfoLogout{
+	padding-left:24px;
+	padding-top:10px;
+	color:#F00；
+	font-weight:bold;
+	font-size:30px;
+
+    }
+.login .ds #showText {
+	color: #000000;
+	padding-top: 90px;
+}
+.errorMessageOut{
+	color:#F00;
+	font-size:20px;
+	font-weight:bold;
+}
+#loginSelect select{
+	width:373px;
+	height:40px;
+	line-height:40px;
+	font-size:28px;
+	border:1px solid #389848;
+	background:#fff;
+	margin:15px 0 0px 8px;
+}
+
+.loginClass{
+   background:url(../images/logout/log.gif);
+	width:152px;
+	height:50px;
+	display:block;
+	position:absolute;
+	margin:0px;
+	border:0px;
+	top:461px;
+	left:421px;
+}
+.loginClass:link, .loginClass:visited{
+	width:151px;
+	height:51px;
+	display:block;
+	margin:0 15px 0 0;
+	background:url(../images/logout/log.gif) no-repeat;
+}
+.loginClass:hover{
+	background:url(../images/logout/log-hover.gif) no-repeat;
+}
+#bindErrorMessage{
+	top:430px;
+	left:357px;
+	width:400px;
+	color:#FF3300;
+	position:absolute;
+	font-size:20px;
+}

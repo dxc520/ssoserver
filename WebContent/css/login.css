@@ -1,0 +1,107 @@
+body{
+    background:#3e5629 url(../images/login/loginTopBg.png) top center no-repeat;
+    }
+.loginCenter{
+    width:614px;
+	height:418px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-209px 0 0 -307px;
+    }
+.loginLogo{
+    background:url(../images/login/loginLogo.png);
+	widht:614px;
+	height:90px;
+    }
+.loginBox{
+    background:url(../images/login/loginBox.png) no-repeat;
+	width:614px;
+	height:217px;
+	padding:0px 0 0 300px;
+    }
+    
+.loginBoxCard{
+    background:url(../images/login/loginBox.png) no-repeat;
+	width:614px;
+	height:217px;
+	padding:0px 0 0 300px;
+    }
+ .loginBoxCard li{
+    list-style:none;
+	font-size:12px;
+    }
+.loginBox li{
+    list-style:none;
+	font-size:12px;
+    }
+.loginBox li.paddingTop{
+    padding-top:39px;
+    }
+.loginBox li.marginTop{
+    margin-top:10px;
+    }
+.loginBox li.errorInfo{
+    padding-left:50px;
+	padding-top:10px;
+	color:#FF3300;
+	font-weight:bold;
+    }
+.loginBox li.loginButtonMargin{
+	padding-left:44px;
+	padding-left:48px\0;
+	*padding-left:48px!important;
+	margin-top:16px;
+	margin-top:16px\0;
+	*margin-top:0px!important;
+	}
+.loginBottom{
+    background:url(../images/login/loginBottom.png);
+	width:614px;
+	height:110px;
+    }
+.userOnblur,.userOnfoucs,.passOnblur,.passOnfoucs{
+	font-family:Verdana, Geneva, sans-serif;
+    width:134px;	
+	height:24px;	
+	line-height:23px;
+	border:0px;
+	font-size:12px;
+	margin-left:25px;
+	padding-top:5px;
+	padding-top:0px\0;
+	*padding-top:0px!important;
+	background:transparent;
+	border:0px;
+    }
+.username_bg{
+	width:160px;
+	height:23px;
+	line-height:23px;
+    background:url(../images/login/userOnblur.png) no-repeat;
+    }
+.password_bg{
+	width:160px;
+	height:23px;
+	line-height:23px;
+    background:url(../images/login/passOnblur.png) no-repeat;
+    }
+.loginButton{
+    background:url(../images/submit.gif);
+	width:89px;
+	height:29px;
+	display:block;
+	margin:0px;
+	border:0px;
+	cursor:pointer;
+    }
+.loginButtonHover{
+    display:block;
+    background:url(../images/login/loginButtonHover.png);
+	width:87px;
+	height:27px;
+	margin:8px 0 0 46px;
+	border:0px;
+	cursor:pointer;
+    }
+   

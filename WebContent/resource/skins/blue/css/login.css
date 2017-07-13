@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background:url(../images/login.png) center top no-repeat;
+    margin:0;
+    padding:0;
+}
+input{
+    
+}
+.loginCentent{
+    background:url(../images/login2.png) center top no-repeat;
+    width:875px;
+    height:724px;
+    margin:0 auto;
+    position:relative;
+    *left: 272px;
+    top: 0px;
+}
+.loginBox{
+    margin:360px 0 0 320px;
+    *margin:360px 0 0 360px;
+    _margin:360px 0 0 360px;
+    position:absolute;
+    font-weight:bold;
+    width:350px;
+}
+.loginBox li{
+    list-style-type:none;
+    width:300px;
+    margin-bottom:20px;
+    float:left;
+}
+.loginBox li span{
+	font-weight:bold;
+    float:left;
+}
+.userInput{
+    width:150px;
+    height:24px;
+    line-height:24px;
+    margin:0 0 0px;
+    font-size:14px; 
+    border:0px; 
+    padding:0 5px;
+    background:transparent;
+}
+.username{
+    width:160px;
+    height:24px;
+    line-height:24px;
+}
+.codeInput{
+    width:150px;
+    height:24px;
+    line-height:24px;
+    font-size:14px;
+    border:0px; 
+    padding:0 5px;
+    background:transparent;
+}
+.password_bg{
+    width:160px;
+    height:24px;
+    line-height:24px;
+    display:block;
+    background:url(../images/userBg.gif) no-repeat;
+}
+.loginButton{
+    width:105px;
+    height:35px;
+    margin:4px 10px 0 5px;
+    border:0px; 
+    cursor:pointer;
+    background:url(../images/loginButton.gif) no-repeat; 
+}
+.cancelButton{
+    width:105px;
+    height:35px;
+    cursor:pointer;
+    border:0px; 
+    background:url(../images/cancelButton.gif) no-repeat;
+}
+.loginUser{
+    background: url(../images/loginUser.png) no-repeat left center;
+    width:300px;
+    height:25px;
+    margin-left:10px;
+    float:left;
+    }
+.loginUser span{
+    display:block;
+    font-size:12px;
+    padding-left:22px;
+    padding-top:5px;
+    }
+.rightFunction{
+    float:right;
+    margin-right:10px;
+    }
+.rightFunction span{
+    display:block;
+    float:left;
+    font-size:12px;
+    color:#fff;
+    line-height:25px;
+    }
+.rightFunction span a{
+    text-decoration:none;
+    color:#fff;
+    }
+.rightFunction span a:hover{
+    text-decoration:underline;
+    color:#fff;
+    }
+.rightFunction span.modifyIcon{
+    background: url(../images/edit.png) no-repeat left center;
+    width:25px;
+    height:25px;
+    margin-left:10px;
+    }
+.rightFunction span.indexIcon{
+    background: url(../images/home.png) no-repeat left center;
+    width:25px;
+    height:25px;
+    margin-left:10px;
+    }
+.rightFunction span.exitIcon{
+    background: url(../images/exit.png) no-repeat left center;
+    width:25px;
+    height:25px;
+    margin-left:10px;
+    }
+#errorMessage{
+    width:268px;
+    color:#FF3300;
+    position:absolute;
+    font-size:12px;
+    left: 66px;
+    top: 77px;
+}
+#loginTypeSelect{
+	width:160px;
+    height:25px;
+    line-height:24px;
+    margin:1px 0 0 0px;
+    font-size:14px; 
+    border:0px; 
+    padding:0 5px;
+    background:transparent;
+}
+#errorMessageValidate{
+	 width:268px;
+    color:#FF3300;
+    position:absolute;
+    font-size:12px;
+    left: 66px;
+    top: 120px;
+}
+.loginCard{
+    background:url(../images/login_card.png) center top no-repeat;
+    width:875px;
+    height:724px;
+    margin:0 auto;
+    position:relative;
+    *left: 272px;
+    top: 0px;
+}
+.tips{
+	margin:0px;
+	position:relative;
+	color:#FF3300;
+	font-weight:bold;
+	font-size:14px;
+	top:520px;
+	left:330px;
+}
